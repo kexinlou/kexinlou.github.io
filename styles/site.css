@@ -1,0 +1,102 @@
+body{
+  background: #fafafa;
+  margin: 2% 10%;
+  font-family: "Montserrat";font-size: 24px;
+}
+
+/* nav bar styling */
+nav{
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat";font-size: 16px;font-weight: 400;
+  font-weight:600;
+  justify-content: space-between;
+  align-items: baseline;
+  /* position: fixed;
+  width: 80%;
+  top:20; */
+}
+
+
+nav a{
+  color:#333;
+  text-decoration:none;
+}
+
+nav a.logo{
+  font-family: "Poppins";font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+nav ul{
+  padding-left: 0px;
+  margin-left: 3%;
+  display: block;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 30px;
+}
+
+
+.rectangle-logo{
+  background: #DFF1F0;
+  width:130px;
+  height: 20px;
+  margin-top: -15%;
+}
+
+a.active{
+  color:#1C7CBD;
+}
+
+nav a:hover{
+  opacity: 0.6;
+}
+
+main{
+  display: block;
+}
+
+/* intro styling */
+.intro{
+  margin-right: 20%;
+  margin-top: 15%;
+}
+
+.intro h3{
+  font-family:"Poppins";
+  font-size: 64px;
+  letter-spacing: 1px;
+}
+
+.rectangle-intro{
+  background: #DFF1F0;
+  width:500px;
+  height: 50px;
+  margin-top: -5%;
+}
+
+.accent{
+  font-weight: 600;
+  color: #1D98BF;
+}
+
+/* footer styling */
+footer p{
+  text-align: center;
+  font-size: 12px;
+}
+
+footer p.contact a{
+  color:#1C7CBD;
+  text-decoration:underline;
+  margin-right: 3px;
+}
+
+footer{
+  margin: 10%;
+}
