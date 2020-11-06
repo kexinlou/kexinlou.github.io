@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Kexin Lou Portfolio</title>
@@ -13,7 +14,7 @@
         <a href="index.html" class="logo"> Kexin Lou<div class="rectangle-logo"></div></a>
         <ul>
           <li><a href="index.html" class="active">Work</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/14UxmKmeg4JuCd282edk5yanUViOmrbef/view?usp=sharing">Resume</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
@@ -21,12 +22,111 @@
 
 <main>
   <div class="intro">
-    <h3>Hello, I'm Kexin<div class="rectangle-intro"></div></h3>
+    <h2>Hello, I'm Kexin<div class="rectangle-intro"></div></h2>
     <p><span class="accent">product designer</span> passionate about creating <span class="accent">engaging experience &#10024;</span></p>
     <p>incoming UX Design intern @ Microsoft; studying information science @ Cornell</p>
     <p>discover my work below &#10549;</p>
   </div>
+<div class="content">
+  <!-- row 1 -->
+  <ul class="thumbnail-grid">
+      <!-- project 1 -->
+    <div class="container">
+      <a href="fitm8.html" class="project">
+          <img class="thumbnail" src="assets/thumbnail/fitm8-thumbnail.png" alt="Fit.M8">
+        <div class="proj_descript">
+          <h3>Fit.M8</h3>
+          <h4>UX Design Intern | Summer 2020</h4>
+          <p>Create an active and diverse fitness community</p>
+      </div>
+    </div>
+  <!-- project 2 -->
+  <div class="container">
+    <a href="https://medium.com/design-bootcamp/zoom-redesign-better-networking-experience-in-breakout-rooms-83a4d89b4b7d" class="project">
+        <img class="thumbnail" src="assets/thumbnail/zoom-thumbnail.png" alt="Fit.M8">
+      <div class="proj_descript">
+        <h3>Zoom Redesign</h3>
+        <h4>Product Design Case Study</h4>
+        <p>Better virtual networking experience</p>
+    </div>
+      </a>
+    </div>
+  </ul>
+  <!-- row 2 -->
+  <ul class="thumbnail-grid">
+      <!-- project 3 -->
+    <div class="container">
+      <a href="fitm8.html" class="project">
+          <img class="thumbnail" src="assets/thumbnail/google-thumbnail.png" alt="Fit.M8">
+        <div class="proj_descript">
+          <h3>Google Design Challenge</h3>
+          <h4>Mobile App Design</h4>
+          <p>Discover and build long-term mentorship</p>
+      </div>
+    </div>
+  <!-- project 4 -->
+  <div class="container">
+    <a href="fitm8.html" class="project">
+        <img class="thumbnail" src="assets/thumbnail/virtual-learning-thumbnail.png" alt="Fit.M8">
+      <div class="proj_descript">
+        <h3>Virtual Learning Platform</h3>
+        <h4>Hackathon Winner | Web App Design</h4>
+        <p>Get Academic Help From Peers</p>
+    </div>
+      </a>
+    </div>
+  </ul>
+
+<h4>I also have fun time designing ...</h4>
+<br>
+<br>
+<!-- row 3 -->
+<ul class="thumbnail-grid">
+    <!-- project 5 -->
+  <div class="container">
+    <a href="fitm8.html" class="project">
+        <img class="thumbnail" src="assets/thumbnail/nightwatch-thumbnail.png" alt="Fit.M8">
+      <div class="proj_descript">
+        <h3>The Night Watch</h3>
+        <h4>Game Design</h4>
+        <p>Strategic building and defense game</p>
+    </div>
+  </div>
+<!-- project 6 -->
+<div class="container">
+  <a href="fitm8.html" class="project">
+      <img class="thumbnail" src="assets/thumbnail/figma-thumbnail.png" alt="Fit.M8">
+    <div class="proj_descript">
+      <h3>Figma Birthday</h3>
+      <h4>Figma Community File</h4>
+      <p>Bring joy to the world</p>
+  </div>
+    </a>
+  </div>
+</div>
+
+
 </main>
+
+
+<!-- back to top -->
+<button onclick="topFunction()" id="myBtn" type="button" name="button" style="display:block">&#8593;</button>
+<script type="text/javascript">
+  var mybutton=document.getElementById("myBtn");
+  window.onscroll = function(){scrollFunction()};
+  console.log(window)
+  function scrollFunction(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+    }
+  }
+function topFunction(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 <footer>
 <p class="contact">
   <a href="mailto:kl824@cornell.edu?subject=Hello">Email</a>
