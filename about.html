@@ -6,16 +6,17 @@
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>Kexin Lou Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <title>Kexin (Coco) Lou Portfolio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html" class="logo"> Kexin Lou<div class="rectangle-logo"></div></a>
+        <a href="index.html" class="logo"> Coco<div class="rectangle-logo"></div></a>
         <ul>
-          <li><a href="index.html" class="active">Work</a></li>
+          <li><a href="index.html">Work</a></li>
           <li><a href="https://drive.google.com/file/d/14UxmKmeg4JuCd282edk5yanUViOmrbef/view?usp=sharing">Resume</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="about.html" class="active">About</a></li>
         </ul>
       </nav>
     </header>
@@ -23,46 +24,33 @@
     <div class="about-content">
       <img class="about-img" src="assets/about.jpg" alt="Kexin Lou">
       <div class="about">
-        <h3>Hello, I'm Kexin!<div class="rectangle-about"></div></h3>
+        <h3>Hello! I'm Coco <span class="wave">👋</span></h3>
         <p>I’m a senior studying information science (concentration in data science and UX) at Cornell University. This summer, I will be a UX Design intern at Microsoft’s experience collective team. </p>
-        <p>I started as a pre-law major in college and fell in love with design after taking a product design class. I want to leverage the power of design to <span class="accent">solve challenging problems </span> and <span class="accent">bring positive social impact</span>. </p>
-        <p>When I am not iterating on Figma, you can find me work out, try out new receipes and binge watching TV shows. </p>
+        <p>I started as a pre-law major in college and fell in love with design after taking a product design class. I find joy in designing digital experience to <span class="accent">solve challenging problems </span> and <span class="accent">bring positive social impact</span>. </p>
+        <p>When I am not iterating on Figma, you can find me binge watch Netflix, work out, and try out new receipes. </p>
+        <p>Feel free to reach me out at kl824@cornell.edu and grab (virtual) coffee with me!</p>
         <div class="about-contact">
-          <a href="mailto:kl824@cornell.edu?subject=Hello">Email</a>
-          <a href="https://www.linkedin.com/in/kexin-coco-lou-573583138/">LinkedIn</a>
-          <a href="index.html">View Projects</a>
+          <a href="index.html">view projects</a>
+          <a href="#">view resume</a>
         </div>
       </div>
+
     </div>
 
 
     </main>
     <!-- back to top -->
     <button onclick="topFunction()" id="myBtn" type="button" name="button" style="display:block">&#8593;</button>
-    <script type="text/javascript">
-      var mybutton=document.getElementById("myBtn");
-      window.onscroll = function(){scrollFunction()};
-      console.log(window)
-      function scrollFunction(){
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-        }
-      }
-    function topFunction(){
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
+    <script src="scripts/scrolltop.js"></script>
     <footer>
+      <p>Find me elsewhere</p>
     <p class="contact">
       <a href="mailto:kl824@cornell.edu?subject=Hello">Email</a>
       <a href="https://medium.com/@kl824">Medium</a>
       <a href="https://www.linkedin.com/in/kexin-coco-lou-573583138/">LinkedIn</a>
       <a href="https://twitter.com/kexinlou99">Twitter</a>
       <a href="https://www.instagram.com/coco.o__/">Instagram</a></p>
-    <p>Designed and coded by Kexin &#169; 2020</p>
+    <p>Designed and Developed by Coco with &#127861; &#169; 2020</p>
     </footer>
   </body>
 </html>

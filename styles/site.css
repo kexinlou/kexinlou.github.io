@@ -1,15 +1,16 @@
 body{
   background: #fafafa;
   margin: 2% 10%;
-  font-family: "Montserrat";font-size: 24px;
-  color:#333;
+  font-family: 'Poppins', sans-serif;font-size: 16px;
+  color:#363636;
+  line-height: 1.8em;
 }
 
 /* nav bar styling */
 nav{
   display: flex;
   flex-direction: row;
-  font-family: "Montserrat";font-size: 16px;font-weight: 400;
+  font-size: 16px;font-weight: 400;
   font-weight:600;
   justify-content: space-between;
   align-items: baseline;
@@ -20,12 +21,12 @@ nav{
 
 
 nav a{
-  color:#333;
+  color:#363636;
   text-decoration:none;
 }
 
 nav a.logo{
-  font-family: "Poppins";font-size: 24px;
+  font-family: "Caveat";font-size: 24px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -42,13 +43,6 @@ nav ul li{
   margin-left: 30px;
 }
 
-
-.rectangle-logo{
-  background: #DFF1F0;
-  width:130px;
-  height: 20px;
-  margin-top: -15%;
-}
 
 a.active{
   color:#1C7CBD;
@@ -69,7 +63,7 @@ main{
 }
 
 .intro h2{
-  font-family:"Poppins";
+  font-family:"Caveat";
   font-size: 64px;
   letter-spacing: 1px;
   color:#333;
@@ -77,9 +71,9 @@ main{
 
 .rectangle-intro{
   background: #DFF1F0;
-  width:500px;
+  width:350px;
   height: 50px;
-  margin-top: -5%;
+  margin-top: -1%;
 }
 
 .accent{
@@ -93,23 +87,23 @@ main{
   justify-content: center;
   display: flex;
   flex-direction:row;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 
 .content{
-  margin-top: 10%;
+  margin-top: 5%;
   justify-content: center;
 }
 
 
 .container{
-  width:550px;
-  height:530px;
-  margin-right: 100px;
+  width:580px;
+  height:450px;
+  margin-right: 50px;
   background-color: #FAFAFA;
-  box-shadow: 0px 4px 20px rgba(28, 124, 189, 0.2);
-  border-radius: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -117,9 +111,9 @@ main{
 
 .thumbnail{
   display: block;
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   width: 100%;
-  height: auto;
+  height: 65%;
 }
 
 .project{
@@ -132,23 +126,21 @@ margin-right:5%;
 }
 
 .proj_descript h3{
-font-size: 24px;
+font-size: 20px;
 color:#333;
 margin-bottom: 10px;
 }
 
 .proj_descript h4{
 font-weight: 500;
-font-size: 18px;
+font-size: 14px;
 color:#A7A7A7;
-margin-bottom: 10px;
-margin-top: 10px;
+line-height:2px;
 }
 
 .proj_descript p{
-font-size: 18px;
+font-size: 14px;
 color:#333;
-margin-top: 10px;
 }
 
 /* hover effect */
@@ -163,7 +155,7 @@ margin-top: 10px;
   display: none;
   position: fixed;
   bottom: 10%;
-  right:10%;
+  right:5%;
   z-index:99;
   border:none;
   outline: none;
@@ -181,7 +173,7 @@ margin-top: 10px;
 /* footer styling */
 footer p{
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer p.contact a{
@@ -190,6 +182,14 @@ footer p.contact a{
   margin-right: 3px;
 }
 
+footer p.contact a:hover{
+  color:#1C7CBD;
+  text-decoration:underline;
+  margin-right: 3px;
+  opacity: 0.6;
+}
+
+
 footer{
   margin-top: 10%;
 }
@@ -197,8 +197,8 @@ footer{
 /* about page styling */
 .about-content{
   margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
   display: flex;
   flex-direction: row;
 }
@@ -212,30 +212,39 @@ footer{
 }
 
 .about h3{
-  font-family: "Poppins";
+  font-family: "Caveat";
   font-size: 36px;
   font-weight: bold;
 }
 
-.rectangle-about{
-  background: #DFF1F0;
-  width:270px;
-  height: 40px;
-  margin-top: -7%;
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 
-.about p{
-  font-size: 18px;
-  line-height: 30px;
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
+
+
 
 .about-contact{
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .about-contact a{
   color:#1C7CBD;
-  font-size: 18px;
   font-weight: bold;
   text-decoration:none;
   margin-right: 10%;
@@ -243,4 +252,60 @@ footer{
 
 .about-contact a:hover{
 opacity: 0.6;
+}
+
+
+/* project page */
+.project_page{
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+}
+
+.brief{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.brief_img{
+  width:25%;
+  height: 25%;
+}
+
+.brief_txt{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.brief_txt h1{
+  margin-bottom: 10%;
+}
+
+hr{
+  color:#e5e5e5;
+  border-width: 0.5px;
+  margin-top: 8%;
+}
+
+.summary{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+}
+
+.summary_txt{
+  margin-left: 5%;
+}
+
+.project_img{
+  width:50%;
+  height: 50%;
+}
+
+.medium_img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
 }
