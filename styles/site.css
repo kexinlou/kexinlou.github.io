@@ -71,7 +71,7 @@ main{
 
 .rectangle-intro{
   background: #DFF1F0;
-  width:350px;
+  width:400px;
   height: 50px;
   margin-top: -1%;
 }
@@ -273,6 +273,12 @@ opacity: 0.6;
   height: 25%;
 }
 
+.brief_img_laptop{
+  width:50%;
+  height: 50%;
+  margin-top: 15%;
+}
+
 .brief_txt{
   margin-top: 10%;
   margin-left: 5%;
@@ -303,9 +309,43 @@ hr{
   height: 50%;
 }
 
+.small_img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
 .medium_img{
  display: block;
  margin-left: auto;
  margin-right: auto;
  width: 80%;
+}
+
+.large_img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+.link{
+  color:#1C7CBD;
+  text-decoration:none;
+}
+
+.link:hover{
+  opacity: 0.6;
+}
+
+/* accent color */
+.accent-google{
+  font-weight: 600;
+  color: #F39539;
+}
+
+.accent-game{
+  font-weight: 600;
+  color: #583D72;
 }
