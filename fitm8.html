@@ -7,29 +7,30 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <title>Google Design Challenge - Kexin (Coco) Lou Portfolio</title>
+    <title>Fit.M8 - Kexin (Coco) Lou Portfolio</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="index.html" class="logo"> Coco<div class="rectangle-logo"></div></a>
         <ul>
-          <li><a href="index.html">Work</a></li>
+          <li><a href="index.html"  class="active">Work</a></li>
           <li><a href="https://drive.google.com/file/d/14UxmKmeg4JuCd282edk5yanUViOmrbef/view?usp=sharing">Resume</a></li>
-          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
-    <main class="project_page">
+    <main class="project_page animated animatedFadeInUp fadeInUp">
 <div class="brief">
-  <img src="assets/google-design-challenge/cover.png" alt="cover image" class="brief_img">
+  <img src="assets/fitm8/cover.png" alt="cover image" class="brief_img">
   <div class="brief_txt">
-    <span class="accent-google"><h1>Google Design Challenge</h1></span>
-    <p><b>Overview</b>: This is a case study I did as a part of Google’s recruiting process. The prompt was to design an experience that allows mentors and mentees to discover each other and help new students adjust to campus life.</p>
-    <p><strong>Role</strong>: Individual Project (UX Design, UX Research, Visual Design) </p>
-    <p><strong>Tool Kits</strong>: Figma, InVision</p>
-    <p><strong> Timeline</strong>: ~1 week </p>
-    <p><strong> Outcome</strong>: passed the design challenge &#127881;</p>
+    <span class="accent-fit"><h1>Fit.M8</h1></span>
+    <p><strong>Overview</strong>: I was a UX/UI design intern at Fit.M8, a social fitness app that helps college students stay fit in a supportive community.</p>
+    <p><strong>Role</strong>: UX Design, UX Research, Visual Design</p>
+    <p><strong>Tool Kits</strong>: Balsamiq, Figma</p>
+    <p><strong>Timeline</strong>: Jun 2020 - Aug 2020 </p>
+    <p><strong>Team</strong>: 4 programmers, 3 designers, 2 product managers</p>
+    <p><strong> Outcome</strong>: shipped high-fi prototype &#127881;</p>
 
   </div>
 </div>
@@ -37,59 +38,76 @@
 <br>
 <h2>00. Project Summary</h2>
 <div class="summary">
-  <img src="assets/google-design-challenge/find-mentor.gif" alt="Mentorship Matching" class="project_img">
+  <img src="assets/fitm8/outcome2.gif" alt="Solution" class="project_img_fit">
   <div class="summary_txt">
     <p><strong>Problem</strong></p>
-    <p>New students want to connect and establish long-term personal relationship with experienced students to better navigate college life. A lot of new students struggle about matching up with <span class="accent-google">random mentors</span> and <span class="accent-google">end up not keeping in touch</span> with mentors.</p>
-    <h3>How might we create an experience to connect best-fit students and enhance long-term mentorship?</h3>
+    <p>College students want to stay motivated to work out and discover gym partners who share the same goals, habits and interests. However, their <span class="accent-fit">fitness network is small</span> and it’s easy to <span class="accent-fit">lose motivation</span> or accountability..</p>
+    <br>
+    <h3>How might we expand college students’ fitness network and keep them accountable? </h3>
+    <br>
     <p><strong>Solution</strong></p>
-    <p>A mentorship program with mobile app that:</p>
-    <ul>
-      <li>matches mentee with mentors based on mutual interests and personal preference</li>
-      <li>provides event exploration to encourage hangouts and recommend bonding events</li>
-      <li>suggests personal invitations to resolve time conflicts and build long-term relationship</li>
-    </ul>
+    <p>A social fitness app that helps college students discover and work out with ideal gym partners.</p>
   </div>
 </div>
 <br>
 <h2>01. Research</h2>
-<p><strong>Understanding the problem</strong> </p>
-<p>In order to understand new students’ needs for a mentor and experienced students’ thoughts, I sent out a preliminary survey asking students at Cornell about their journey to find a mentor /mentee.  I collected 35 responses and conducted ~5 in person interviews to learn users’ needs and design goals.</p>
-<img src="assets/google-design-challenge/user-research.png" alt="user research" class="medium_img">
+<p><strong>Surveys & User Interviews</strong> </p>
+<p>To understand college students’ current problem with keeping up their workout routine, the design team sent over 100 surveys and conducted 20+ interviews. We collected responses and created an affinity diagram to synthesize our key insights.</p>
+<img src="assets/fitm8/affinity-diagram.png" alt="Affinity Diagram" class="medium_img">
+<br>
+<img src="assets/fitm8/key-finding.png" alt="Key Finding" class="medium_img">
 <br>
 <p><strong>Competitive research</strong> </p>
-<p>i. How current new students get connected with a mentor? </p>
-<p>At the beginning of the school year, I always received tons of emails from school organizations asking students to sign up for mentorships. School orgs and clubs reach out to students with the same major and send out a <span class="accent-google"> Google form</span> asking for personal preference. Then you will be assigned a mentor / mentee. However, it’s a <span class="accent-google">blind date</span> and not everyone can get the mentor that best fits them.</p>
-<img src="assets/google-design-challenge/google-form.png" alt="Google Form" class="small_img">
-<p>ii. How mentors and mentees stay connected?</p>
-<p>At school, many clubs and orgs publish their events and invite students on <span class="accent-google">Facebook Event</span> page. However, Facebook Event thread is <span class="accent-google">overwhelming</span> for new students to discover events that are tailored towards mentorship bonding.</p>
-<img src="assets/google-design-challenge/facebook-event.png" alt="Facebook Event" class="small_img">
+<p>Then I looked into popular fitness apps in the current market and examined those apps in two dimensions - the degree of personalization and community belonging.  Most fitness apps are <span class="accent-fit">tedious to use</span> and <span class="accent-fit">don’t provide enough motivation</span> in a supportive community.</p>
+<img src="assets/fitm8/competitive-analysis.png" alt="Market Research" class="medium_img">
+<p><strong>Key insights</strong></p>
+<ul>
+  <li>Users want to hold themselves accountable by working out with others</li>
+  <li>College students typically have small fitness network and have hard tie finding workout partners</li>
+  <li>Users prefer working out with somone who share similar workout interests at same skill levels</li>
+</ul>
 <br>
 <h2>02. Ideation</h2>
-<p>After I identified users’ needs and problems with current solution, I brainstormed several features to address user concerns one by one.</p>
-<img src="assets/google-design-challenge/ideation.png" alt="Ideation" class="medium_img">
-<p><strong>User flow</strong> </p>
-<img src="assets/google-design-challenge/user-flow.png" alt="User flow" class="large_img">
+<p> <strong>Design goal</strong> </p>
+<p>After we synthesized key insights from research, we defined our design goals:</p>
+<h3>How might we make the discovering process efficient and fun?</h3>
+<p><strong>User flow</strong></p>
+<p>Before we turned our ideas into visual layouts, we first listed the features / functions thta should be included in the user flow to meet users; needs and our design goal.</p>
+<img src="assets/fitm8/user-flow.png" alt="User Flow" class="medium_img">
+<p><strong>Brainstorming</strong> </p>
+<p>Then the design team held a design sprint session and we brainstomed  specific features to meet our design goal. And finally we narrowed down into three ideas —— </p>
+<img src="assets/fitm8/low-fi.png" alt="Low fidelity" class="large_img">
 <br>
-<h2>03. Design</h2>
-<p><strong>Low-fi wireframes</strong></p>
-<p>I decided to sketch some low fidelity wireframes and test my initial ideas with friends. </p>
-<img src="assets/google-design-challenge/low-fi.png" alt="Low-fi wireframes" class="large_img">
-<p><strong>Design iterations</strong></p>
-<p><strong>i. Matching process: two way selection or algorithm-based matching?</strong></p>
-<p>I decided to go with version 2 as the matching process is more efficient and better satisfies users’ needs.</p>
-<img src="assets/google-design-challenge/version1.png" alt="Version 1" class="large_img">
-<img src="assets/google-design-challenge/version2.png" alt="Version 2" class="large_img">
-<p><strong>ii. How to better stay connected</strong></p>
-<p>I decided to go with version 2 as mentoring experience will be more engaging. The homepage not only has a free space to express but also displays cute badges to enhance relationships.</p>
-<img src="assets/google-design-challenge/version3.png" alt="Version 3" class="large_img">
+<h2>03. Iterations & Testing</h2>
+<p>To validate which idea would be best to meet users’ needs, I turned  low-fi sketches into mid-fi wireframes and conducted usability testing sessions.</p>
+<p class="accent-fit"><strong>a. How would you like to be able to find potential gym partners?</strong> </p>
+<p>i. Search (filter / keywords)</p>
+<p>The search method is very straightforward. Users can select tags or type certain keywords to search for other users who fit the filters. However, most users suggested that the experience is quite tedious and they don’t really know what to search.</p>
+<img src="assets/fitm8/option1.png" alt="Search" class="large_img">
+<p>ii. Swipe to like</p>
+<p>Since most users said plain search is arbitary, we decided to think of a more engaging way. Inspired by Tinder, we made the discovery process like a matching game. During user testing, users have conflicting opinions - some of them said it’s really cooool but others expressed their concerns that the chance of matching the right one is slim.</p>
+<img src="assets/fitm8/option2.png" alt="Swipe to like" class="medium_img">
+<p>iii. Curated recommendation</p>
+<p>Then we came to the third idea. After users complete the onboarding surveys, they can explore on the discovery page which incorporates both search / filter feature and also a customized feed that the algorithm picks the best matches for users.</p>
+<img src="assets/fitm8/option3.png" alt="Curated recommendation" class="medium_img">
+<p><strong>Final decision</strong></p>
+<p>We ruled out the first option and narrowed down on the last two design. To better decide, we conducted another round of user interviews and deliberated our findings and thoughts with the whole team. We eventually decided to go for the last option - <span class="accent-fit">curated recommendation</span> for several reasons:</p>
+<ul>
+  <li>As a social fitness app, our end goal is to help users find the “right” gym partners and stay fit rather than meeting A LOT OF people</li>
+  <li>People enjoy “swiping” because they can view as many profiles as possible in short time but that doesn’t align with our goal</li>
+  <li>Users like information-driven feed rather than visual-driven</li>
+</ul>
+<img src="assets/fitm8/final-decision.png" alt="Final Decision" class="medium_img">
 <br>
 <h2>04. Prototype</h2>
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCbcNzMdhV6oiZdMynlxHu0%2FGoogle-Design-Challenge%3Fnode-id%3D117%253A31%26viewport%3D-324%252C-258%252C0.5760270953178406%26scaling%3Dcontain" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1000" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRKfEXfliHP3Ce8h03vvKmX%2FGym-Partner-Discovery%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 <br>
 <br>
 <h2>05. Reflection</h2>
-<p>Due to time constraint, I designed the most important features to stay connected. In the future, I would like to add more social aspects to the app such as building a family system. A family system will let new students meet their mentors’ mentors and connect them with more experienced students and give them a sense of belonging. Mentees are also more willing to contribute back to the community when they become experienced students at school in the future.</p>
+<p>As a fitness enthusiast, I am deeply drawn to the idea of building a social fitness app that helps users stay fit by connecting them with friends who exercise. During my internship at Fit.M8, I applied what I learned in classes such as user research,  UX/UI design and user testing in practice and witnessed the evolvement from a scratch idea to a final polished prototype within two months.</p>
+<p>I learned how to adjust product features based on valuable user feedback, make trade-offs to bridge the team’s vision and users’ needs, and effectively communicate with developers and PMs to successfully deliver the final product.</p>
+<p>Due to Non-Disclosure Agreement, I cannot disclose the full project here. Please <a href="mailto:kl824@cornell.edu?subject=Hello"><span class="accent-fit">contact me</span></a>
+ if you are interested in learning more. You can always find out more information on Fit.M8’s <a href="https://www.fitm8app.com/"><span class="accent-fit">website</span></a> and <a href=" https://www.instagram.com/fit.m8.app/"><span class="accent-fit">Instagram</span></a>.</p>
 <br>
 <br>
 <a href="index.html" class="link">view other projects</a>
