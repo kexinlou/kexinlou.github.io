@@ -10,9 +10,7 @@ body{
 nav{
   display: flex;
   flex-direction: row;
-  font-size: 16px;font-weight: 400;
-  font-weight:600;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: baseline;
 }
 
@@ -22,26 +20,19 @@ nav a{
   text-decoration:none;
 }
 
-nav a.logo{
-  font-family: "Caveat";font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
 
 nav ul{
   padding-left: 0px;
-  margin-left: 3%;
   display: block;
 }
 
 nav ul li{
   display: inline;
-  margin-left: 30px;
+  margin-right:30px;
 }
 
 
-a.active{
+.active{
   color:#1C7CBD;
 }
 
@@ -62,7 +53,7 @@ main{
 /* intro styling */
 
 .intro h2{
-  font-family:"Caveat";
+  font-family: 'Cormorant Garamond', serif;
   font-size: 64px;
   letter-spacing: 1px;
   color:#333;
@@ -85,8 +76,8 @@ main{
 
 
 .container-left{
-  width:580px;
-  height:450px;
+  width:100%;
+  height:100%;
   margin-right: 50px;
   background-color: #FAFAFA;
   display: flex;
@@ -94,8 +85,8 @@ main{
 }
 
 .container-right{
-  width:580px;
-  height:450px;
+  width:100%;
+  height:100%;
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
@@ -213,7 +204,7 @@ figcaption{
 }
 
 .about h3{
-  font-family: "Caveat";
+  font-family: 'Cormorant Garamond', serif;
   font-size: 36px;
   font-weight: bold;
 }
@@ -414,6 +405,10 @@ hr{
     font-family: 'Poppins', sans-serif;font-size: 10px;
   }
 
+  main{
+    margin-left: 0px;
+  }
+
   nav{
     font-size: 10px;
   }
@@ -575,15 +570,6 @@ iframe{
     height: 100%;
   }
 
-  .container-left{
-    width:100%;
-    height:100%;
-  }
-
-  .container-right{
-    width:100%;
-    height:100%;
-  }
 
   #myBtn{
     bottom: 5%;
@@ -621,5 +607,9 @@ iframe{
 
     margin-right: 0px;
   }
+
+}
+
+@media screen and (min-width: 1440px){
 
 }
