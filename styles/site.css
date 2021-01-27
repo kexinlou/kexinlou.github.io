@@ -419,15 +419,6 @@ iframe{
     margin-right: 0px;
   }
 
-  .container-left{
-    width:300px;
-    height:280px;
-  }
-
-  .container-right{
-    width:300px;
-    height:280px;
-  }
 
   .proj_descript h3{
   font-size: 16px;
@@ -458,15 +449,10 @@ iframe{
 }
 
 figure{
-  margin:0px;
+  margin-bottom:20px;
+  margin-left: 0px;
 }
 
-.about-img{
-  width: 280px;
-  height:326px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 20px rgba(28, 124, 189, 0.2);
-}
 /* project page */
 .brief{
   display: flex;
@@ -597,11 +583,10 @@ iframe{
   .about-img{
     width: 280px;
     height:326px;
-    margin-left:20%;
   }
 
   figure{
-
+    margin-left: 0px;
     margin-right: 0px;
   }
 
