@@ -162,24 +162,31 @@ color:#333;
 }
 
 /* footer styling */
-footer p{
-  text-align: center;
+
+footer h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:48px;
+    color: #333;
+}
+footer p.contact{
   font-size: 14px;
 }
 
 footer p.contact a{
-  color:#1C7CBD;
-  text-decoration:underline;
-  margin-right: 3px;
+
+  color:#333;
+  margin-right: 5%;
 }
 
 footer p.contact a:hover{
-  color:#1C7CBD;
   text-decoration:underline;
-  margin-right: 3px;
   opacity: 0.6;
 }
 
+.footnote{
+  font-size: 12px;
+  text-align: center;
+}
 
 footer{
   margin-top: 10%;
